@@ -9,6 +9,11 @@ export const ShinyButton = () => {
       transition={{
         repeat: Infinity,
         repeatType: "loop",
+        repeatDelay: 1,
+        type: "spring",
+        stiffness: 20,
+        damping: 15,
+        mass: 2,
       }}
     >
       <span className="text-neutral-100 tracking-wide font-light h-full w-full block relative linear-mask">
