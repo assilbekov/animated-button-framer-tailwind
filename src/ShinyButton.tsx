@@ -26,6 +26,7 @@ export const ShinyButton = () => {
       <span className="text-neutral-100 tracking-wide font-light h-full w-full block relative linear-mask">
         Start now
       </span>
+      <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
     </motion.button>
   );
 };
